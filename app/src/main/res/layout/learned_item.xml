@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="24dp">
+
+    <View
+        android:id="@+id/understandingLevelContainer"
+        android:layout_width="24dp"
+        android:layout_height="0dp"
+        android:background="#FF8800"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="@+id/learnedDescription"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/learnedTitle" />
+
+    <TextView
+        android:id="@+id/learnedTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Klotin collections"
+        android:layout_marginLeft="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/understandingLevelContainer"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/learnedDescription"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:text="Klotin dsadsadsadsadsadsalkdjsadlksajdlksajdlksajdlksajdlksajdsalkdjasddaksljd"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/understandingLevelContainer"
+        app:layout_constraintTop_toBottomOf="@+id/learnedTitle" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
