@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">WhatDidILearn</string>
+    <string name="app_name">What Did I Learn</string>
+    <string name="textView_descriptionText">Item Description:</string>
+    <string name="textView_titleText">Item Title:</string>
+    <string name="button_text">Save Item</string>
+    <string name="checkBox_understandLevel_low">LOW</string>
+    <string name="checkBox_understandLevel_medium">MEDIUM</string>
+    <string name="checkBox_understandLevel_high">HIGH</string>
 </resources>

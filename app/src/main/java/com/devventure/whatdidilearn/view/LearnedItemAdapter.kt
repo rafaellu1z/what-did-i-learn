@@ -1,7 +1,5 @@
 package com.devventure.whatdidilearn.view
 
-import android.graphics.Color.green
-import android.graphics.Color.red
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -13,7 +11,11 @@ import com.devventure.whatdidilearn.data.UnderstandingLevel
 
 class LearnedItemAdapter: RecyclerView.Adapter<LearnedItemAdapter.LearnedItemViewHolder>() {
     var learnedItems = listOf<LearnedItem>()
-    
+        set(value) {
+            field = value
+            notifyDataSetChanged()
+        }
+
     inner class LearnedItemViewHolder (itemView: View) : RecyclerView.ViewHolder(itemView){
         private val titleContainer = itemView.findViewById<TextView>(R.id.learnedTitle)
         private val descriptionContainer = itemView.findViewById<TextView>(R.id.learnedDescription)
@@ -44,5 +46,4 @@ class LearnedItemAdapter: RecyclerView.Adapter<LearnedItemAdapter.LearnedItemVie
     override fun getItemCount(): Int {
         return learnedItems.size
     }
-
 }

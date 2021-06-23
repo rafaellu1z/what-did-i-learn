@@ -1,13 +1,11 @@
 package com.devventure.whatdidilearn.data
 
 import androidx.room.TypeConverter
-import com.devventure.whatdidilearn.R
 
 class Converters {
     @TypeConverter
     fun levelToInt(level: UnderstandingLevel): Int{
         return level.ordinal
-
     }
 
     @TypeConverter
