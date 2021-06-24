@@ -31,7 +31,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="16dp"
-        android:text="Klotin dsadsadsadsadsadsalkdjsadlksajdlksajdlksajdlksajdlksajdsalkdjasddaksljd"
+        android:text="Klotin é uma linguagem criada para desenvolvimento de aplicações para Android"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/understandingLevelContainer"
         app:layout_constraintTop_toBottomOf="@+id/learnedTitle" />

@@ -5,7 +5,7 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.devventure.whatdidilearn.databinding.ActivityNewItemBinding
 
-class NewItemActivity : AppCompatActivity() {
+class  NewItemActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
